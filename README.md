@@ -26,14 +26,21 @@ VS Code, Docker, Python, Django, Django Restframework, MySQL
 
 #### For migrations
 
-Migrate Cmmand
-```python manage.py makemigrations``` Creating migrations
+Creating migrations
+```python manage.py makemigrations```
+Migrate Command
 ```python manage.py migrate```
+
+#### Create superuser/admin
+```python manage.py createsuperuser```
 
 #### Run server
 ```python manage.py runserver```
 
 #### Swagger URL
 ```localhost:8000/swagger/```
+
+#### Stopping server
+```Ctl+c```
 
 -----Projetc setup completed-----
