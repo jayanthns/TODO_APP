@@ -1,0 +1,23 @@
+{% extends 'common/base.html' %}
+{% load staticfiles %}
+{% block title %}
+Task
+{% endblock %}
+
+{% block body %}
+<form class="form-signin" method="post" name="loginForm">
+    <h2 class="form-signin-heading">Task Form</h2>
+    <label for="inputTitle" class="sr-only">Title</label>
+    <input type="text" id="inputTitle" name="title" class="form-control" placeholder="Title" required autofocus>
+    <br>
+    <label for="inputDescription" class="sr-only">Description</label>
+    <input type="text" id="inputDescription" name="description" class="form-control" placeholder="description">
+    <br>
+    <label for="inputDatetime" class="sr-only">Description</label>
+    <input type="date" id="inputDatetime" name="scheduled_at" class="form-control" placeholder="select date" required>
+    <br>
+    <button class="btn btn-lg btn-primary btn-block" type="button">
+        <span class="signInSpan">Create Task</span>
+    </button>
+</form>
+{% endblock %}

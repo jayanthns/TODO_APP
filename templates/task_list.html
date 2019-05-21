@@ -1,0 +1,12 @@
+{% extends 'common/base.html' %}
+{% load staticfiles %}
+{% block title %}
+Task
+{% endblock %}
+
+{% block body %}
+{% for item in data %}
+<li>{{item.title}}</li>
+{% endfor %}
+<li></li>
+{% endblock %}
