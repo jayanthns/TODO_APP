@@ -43,4 +43,7 @@ Migrate Command
 #### Stopping server
 ```Ctl+c```
 
+#### Admin Login URL
+```localhost:8000/admin/```
+
 -----Projetc setup completed-----
